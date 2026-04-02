@@ -215,11 +215,11 @@ console.log(5);
 ### 1.4 — Modern JavaScript (ES6+)
 
 | Feature                                    | Ứng dụng thực tế                                                                                         |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------------- | --- | --- |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | **Destructuring**                          | Parameter extraction, API response parsing                                                               |
 | **Spread/Rest**                            | Shallow copy, function arguments, merging objects                                                        |
 | **Modules**                                | ESM (`import/export`) vs CommonJS (`require/module.exports`). Tree shaking, circular dependency handling |
-| **Optional Chaining & Nullish Coalescing** | `?.` và `??` — khác gì `                                                                                 |     | `   |
+| **Optional Chaining & Nullish Coalescing** | `?.` và `??` — khác gì `\|\|`                                                                            |
 | **Map, Set, WeakMap, WeakSet**             | Use cases cho mỗi loại. WeakMap cho private data, caching                                                |
 | **Symbols**                                | Well-known symbols: `Symbol.iterator`, `Symbol.toPrimitive`, `Symbol.hasInstance`                        |
 | **Tagged Templates**                       | SQL injection prevention (e.g., `sql` tagged template trong Prisma)                                      |
